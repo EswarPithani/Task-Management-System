@@ -2,9 +2,9 @@
 
 A full-stack task management system with dependency tracking, circular dependency detection, automatic status updates, and interactive graph visualization.
 
-## 🎯 Features
+##  Features
 
-### ✅ Core Requirements
+###  Core Requirements
 
 - **Task Management**: Create, read, update, delete tasks
 - **Circular Dependency Detection**: DFS algorithm detects and prevents cycles
@@ -12,14 +12,14 @@ A full-stack task management system with dependency tracking, circular dependenc
 - **Graph Visualization**: Interactive SVG graph showing task relationships
 - **Real-time Updates**: Live updates without page refresh
 
-### 📊 Task Status Rules
+###  Task Status Rules
 
-- ✅ **All dependencies completed** → Status: `in_progress`
-- ⚠️ **Any dependency blocked** → Status: `blocked`
-- ⏳ **Dependencies exist, not all completed** → Status: `pending`
-- 📝 **No dependencies** → Status stays as set
+-  **All dependencies completed** → Status: `in_progress`
+-  **Any dependency blocked** → Status: `blocked`
+-  **Dependencies exist, not all completed** → Status: `pending`
+-  **No dependencies** → Status stays as set
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 
@@ -36,7 +36,7 @@ A full-stack task management system with dependency tracking, circular dependenc
 - **HTTP Client**: Axios for API calls
 - **Icons**: React Icons
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
